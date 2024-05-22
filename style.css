@@ -25,7 +25,6 @@ section {
     margin-bottom: 10px;
 }
 
-
 header h1 {
     margin: 0;
     font-size: 3em;
@@ -71,64 +70,39 @@ h4 {
     margin-top: 5px;
 }
 
-
-.job-header {
+.job-header, 
+.project-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.job-header h3 {
-    margin: 0;
-}
-
-.job-header p {
-    margin: 0;
-}
-
-.job ul {
-    padding-left: 35px; /* Adjust the padding to move the bullet points closer to the content */
-    list-style-type: disc; /* Use disc for bullet points */
-    
-}
-
-.job ul li {
-    font-size: 1em;
-}
-
-
-.project-header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-}
-
+.job-header h3,
 .project-header h3 {
     margin: 0;
+    font-size: 1.2em;
 }
 
+.job-header p,
 .project-header p {
     margin: 0;
+    color: #555;
 }
 
-.project ul {
+.job ul, .project ul {
     padding-left: 35px; /* Adjust the padding to move the bullet points closer to the content */
     list-style-type: disc; /* Use disc for bullet points */
     
 }
 
+.job ul li, 
 .project ul li {
     font-size: 1em;
 }
 
-.project ul li:last-child {
-    margin-bottom: 0; /* Remove margin for last list item */
-}
-
 ul {
     list-style-type: none;
-    padding: 2px;
+    padding: 0;
 }
 
 ul li {
@@ -149,11 +123,8 @@ a:hover {
     border-right: 1px solid lightgray;
 }
 
-section {
-    margin-bottom: 20px;
-}
-
-.job {
+.job,
+.project {
     margin-bottom: 20px;
 }
 
