@@ -1,0 +1,185 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0056b3;
+    color: white;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
+h3, h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-header h3 {
+    margin: 0;
+}
+
+.job-header p {
+    margin: 0;
+}
+
+.job ul {
+    padding-left: 35px; /* Adjust the padding to move the bullet points closer to the content */
+    list-style-type: disc; /* Use disc for bullet points */
+    
+}
+
+.job ul li {
+    font-size: 1em;
+}
+
+
+.project-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.project-header h3 {
+    margin: 0;
+}
+
+.project-header p {
+    margin: 0;
+}
+
+.project ul {
+    padding-left: 35px; /* Adjust the padding to move the bullet points closer to the content */
+    list-style-type: disc; /* Use disc for bullet points */
+    
+}
+
+.project ul li {
+    font-size: 1em;
+}
+
+.project ul li:last-child {
+    margin-bottom: 0; /* Remove margin for last list item */
+}
+
+ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+ul li {
+    padding: 2px;
+    border-radius: 4px;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.certification {
+    margin-bottom: 10px;
+}
+
+.certification h3 {
+    font-size: 1.5em;
+    color: #0056b3;
+}
+
+.certification p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    #mainLeft {
+        border-right: none;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+}
